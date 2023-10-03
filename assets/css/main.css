@@ -143,6 +143,10 @@ span{
 	.ds-testimonials-loop article{ font-size:1rem; line-height: 2rem  }
 	.ds-email-section h2{ font-size: 2rem }
 	.ds-testimonials-slider .slick-arrow{width: 2.75rem;height: 2.75rem;line-height: 2.75rem;}
+
+  .custom-navbar {
+    display: none; /* Hide the entire navbar on smaller screens */
+  }
 }
 
 
@@ -225,16 +229,13 @@ to {
 
 /* scrolling shadow moverrr */
 
-/* Add a class to control the shadow when scrolling */
-/* .ds-image-shadow.scroll-down {
-  box-shadow: 20px 20px 20px 20px #c7f900;
-}
 
-.ds-image-shadow.scroll-up {
-  box-shadow: -20px -20px 20px 20px #c7f900; 
-} */
 .ds-image-shadow {
   /* Your other styles */
   /* box-shadow: 0 0 20px 20px #c7f900; Add a static shadow initially */
   transition: box-shadow 1s ease-out; /* Add a smooth transition for box-shadow changes */
 }
+
+/* nav barrrrrrrrrrrrrrrrr */
+
+/* Custom Navbar Styles */
