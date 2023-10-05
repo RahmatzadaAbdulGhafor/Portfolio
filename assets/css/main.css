@@ -70,6 +70,7 @@ svg,img { max-width: 100%; height: auto; }
 span{
     color: rgb(203,254,0);  
     font-style: bold;
+	text-align: justify;
 }
 /*-----------------------------------------------------------------
   3. >>> Resume Style
@@ -121,6 +122,15 @@ span{
 .ds-footer{ padding: 2.5rem 0; text-align: center; color: #CECECE; font-size: 1.25rem }
 .ds-footer a{color: #CECECE }
 .ds-footer a:hover{color: #CECECE; text-decoration: underline; }
+
+.ds-projects-section, .justify{
+	text-align: justify;
+}
+.center{
+	text-align: left;
+}
+
+
 /*-------------------------------------------------------------------------------
  XS Style @media (max-width: 767px) 
 -------------------------------------------------------------------------------*/
